@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&display=swap");
+
+body {
+  background-color: #202632;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  max-width: 500px;
+  width: 30%;
+  min-width: 300px;
+  background-color: #313a49;
+  min-height: 45vh;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem 1.5rem;
+  position: relative;
+  font-family: "Manrope", sans-serif;
+}
+.card .number {
+  color: #50ffa9;
+  margin-top: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-size: .7rem;
+}
+.card h2 {
+  text-align: center;
+  color: #c6d4df;
+  font-size: 28px;
+  font-weight: 800;
+}
+.decoration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 100px;
+  margin: 0 1rem;
+  height: 0.15px;
+  background-color: #c6d4df73;
+  margin-top: -10px;
+}
+.decor {
+  color: #c6d4df;
+  font-size: 1.3rem;
+  margin: 0.5rem 0 1rem;
+}
+button {
+  all: unset;
+  background-color: #50ffa9;
+  border-radius: 50%;
+  width: 20px;
+  position: absolute;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  color: #313a49;
+  margin: 1rem 0;
+  transition: 0.4s;
+  bottom: -40px;
+}
+button:hover {
+  background-color: hsl(151, 100%, 46%);
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.75rem;
+}
